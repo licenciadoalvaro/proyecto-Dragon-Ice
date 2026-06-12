@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>;
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>;
     <title>Formulario Heladeria</title>
 
     <style>
@@ -121,7 +123,7 @@
             Complete los datos del usuario
         </p>
 
-        <form action="createusuario.php" method="POST">
+        <form action="registrousuario.php" method="POST">
 
             <label for="contraseña">nombre</label>
             <input type="text" id="nombre" placeholder="Ingrese su nombre">
@@ -132,13 +134,13 @@
             <label for="direccion">direccion</label>
             <input type="text" id="ciu" placeholder="Ingrese su direccion">
 
-            <label for="celular">sesion</label>
+            <label for="celular">numero</label>
             <input type="text" id="ciu" placeholder="Ingrese su número de celular">
 
-            <label for="rol">sesion</label>
+            <label for="rol">rol</label>
             <input type="text" id="ciu" placeholder="Ingrese su rol personal">
 
-            <label for="estado">sesion</label>
+            <label for="estado">estado</label>
             <input type="text" id="ciu" placeholder="Ingrese su estado personal">
 
             <button type="submit" class="boton">

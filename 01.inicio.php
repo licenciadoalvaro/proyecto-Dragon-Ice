@@ -198,7 +198,7 @@
         <header>
             <aside>
                 <a href="" class="logo">
-                    <img src="xd.png" alt="Logo">
+                    <img src="logo" alt="Logo">
                     <h1>Dragon Ice</h1>
                 </a>
             </aside>
